@@ -22,4 +22,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.recovery.board.rc:root/init.recovery.board.rc \
     $(LOCAL_PATH)/init.recovery.universal.rc:root/init.recovery.universal.rc \
-    $(LOCAL_PATH)/twrp.fstab:recovery/root/etc/twrp.fstab
+    $(LOCAL_PATH)/recovery.fstab:recovery/root/etc/twrp.fstab
