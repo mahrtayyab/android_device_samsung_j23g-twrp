@@ -42,7 +42,7 @@ TARGET_PREBUILT_KERNEL := device/samsung/j23g/kernel
 # recovery
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 TARGET_RECOVERY_INITRC := device/samsung/j23g/init.rc
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/twrp.fstab
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery.fstab
 
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
